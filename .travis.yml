@@ -6,9 +6,6 @@ branches:
   only:
   - master
   - sauce-labs
-before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
 env:
   global:
     - secure: FbBoPOFduql+4/2r8fJ/V9jdMMVsGEEyoJq73rAE5DSSTU7oaquu9NnKUGTkBRaaI9VW0PmeUzYhW+2esVbwkGeujozeztJRf0l6BCfKA0n1TGgBQRSMt48RrpVd9QJP5OR3Gjm/qgDD8OClAF3GorMLhoobq2HaIhuAjuOst8uflyUD1Bi5BE+wZI+pKht5/9mRTx/oXreb1Ns+LUUJCgYFUY2GHe/WCa5swrAVA6LBenj+V7pCXu8oigca31ff0kQTPXg+StDMFNvGP/KcLk1vA8EqMrG1xquXbb0tgLuF2SD/I8v0hWwJwB1LOVCQrPvWFwqOeZUdQdNW4esBztT80zGhvL9PKqH1tAN+G1bY7yryHnewYdK73OtQdERuwM4GT6DE9hULF8JZARMO41Sj0VqjBAoVSITtdpO6j7bneNfbPOPeS9X1XLjMQPnqL/w9xr3h+zUevnzDfgkdep3FwkOIgWIkdxRrMSOBmavYE9+ZG59w+5kRLDN2nW003xv9tpNjafsu9Zw1LXYR7rzCYMGYlYR7qP7+bA/gNBXEq6dFR3LwEKQ/aOMS0NJZ9+nqM4k7jDrnoclDK1r+K+daFdwwBTiyV3s70/WhNPcaZeryuj2oT5gPBk4ZmVNqKlqdVyljCtqXaoXfH23EiPNdgWDAamD5IuRhTMftD2g=

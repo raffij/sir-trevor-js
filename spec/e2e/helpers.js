@@ -89,7 +89,7 @@ beforeAll(function() {
 
     if (USE_SAUCELABS) {
 
-      serverUrl = 'http://ondemand.saucelabs.com:80/wd/hub';
+      serverUrl = 'http://ondemand.saucelabs.com/wd/hub';
 
       Object.assign(capabilities, {
         build: process.env.TRAVIS_BUILD_NUMBER,
