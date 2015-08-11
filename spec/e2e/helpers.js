@@ -3,7 +3,7 @@
 var driver = require('selenium-webdriver');
 
 var APP_URL = 'http://localhost:8000/spec/app/index.html';
-var USE_SAUCELABS = false;
+var USE_SAUCELABS = true;
 
 exports.findElementByCss = function(css, parent) {
   return (parent || exports.browser).findElement(driver.By.css(css));
